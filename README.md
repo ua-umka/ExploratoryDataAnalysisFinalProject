@@ -9,9 +9,7 @@ For each year and for each type of PM source, the NEI records how many tons of P
 
 ###Data 
 
-The data for this assignment are available from the course web site as a single zip file:
-
-    [Data for Peer Assessment](https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip) [29Mb]
+The data for this assignment are available from the current repository as a compressed file.
 
 The zip file contains two files:
 
@@ -26,17 +24,11 @@ PM2.5 Emissions Data (summarySCC_PM25.rds): This file contains a data frame with
 
 Source Classification Code Table (Source_Classification_Code.rds): This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source “10100101” is known as “Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal”.
 
-You can read each of the two files using the readRDS() function in R. For example, reading in each file can be done with the following code:
-
-## This first line will likely take a few seconds. Be patient!
-NEI <- readRDS("summarySCC_PM25.rds")
-SCC <- readRDS("Source_Classification_Code.rds")
-
-as long as each of those files is in your current working directory (check by calling dir() and see if those files are in the listing).
-Assignmentless 
+###Assignment
 
 The overall goal of this assignment is to explore the National Emissions Inventory database and see what it say about fine particulate matter pollution in the United states over the 10-year period 1999–2008. You may use any R package you want to support your analysis.
-Questions
+
+###Questions
 
 You must address the following questions and tasks in your exploratory analysis. For each question/task you will need to make a single plot. Unless specified, you can use any plotting system in R to make your plot.
 
